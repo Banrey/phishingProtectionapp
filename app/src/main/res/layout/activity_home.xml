@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Home">
+
+    <ImageView
+        android:id="@+id/imgBtnEncyclopedia"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/home_buttons" />
+
+    <ImageView
+        android:id="@+id/imgBtnChat"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/home_buttons" />
+
+    <ImageView
+        android:id="@+id/imgBtnVideoGallery"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        app:srcCompat="@drawable/home_buttons" />
+</LinearLayout>
